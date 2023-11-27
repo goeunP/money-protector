@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.navBar ul {
+  .navBar ul {
   padding-left: 0px;
   margin: 0px;
   width: 100%;
@@ -15,8 +15,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 117px;
-}
+  gap: 100px;
+  }
 
 .nav {
   gap: 60px;
@@ -24,7 +24,7 @@
   color: #333;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -33,7 +33,7 @@
 .nav-btn {
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -50,16 +50,27 @@
 }
 
 .login {
-  border: 1px solid var(--main_ver2, #12887a);
-  color: var(--main_ver2, #12887a);
+  border: 1px solid #1ca999;
+  color: #1ca999;
   padding: 10px 24px;
   background: transparent;
   margin-right: 20px;
 }
 
+.login:hover{
+  background: #12887a;
+  border: transparent;
+  color: white;
+}
+
 .signup {
   color: #fff;
-  background: var(--main_ver2, #12887a);
+  background: var(--main_ver2, #1ca999);
   padding: 10px 15px;
-  border: 1px solid var(--main_ver2, #12887a);
+  border: 1px solid var(--main_ver2, #1ca999);
+}
+
+.signup:hover{
+  background: #12887a;
+  border: #12887a;
 }
