@@ -1,0 +1,65 @@
+@import url("./style.css");
+
+.navBar {
+  width: 100%;
+  height: 85px;
+  position: relative;
+}
+
+.navBar ul {
+  padding-left: 0px;
+  margin: 0px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 117px;
+}
+
+.nav {
+  gap: 60px;
+  display: flex;
+  color: #333;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-btn {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  border: 1px solid var(--main_ver2, #12887a);
+  color: var(--main_ver2, #12887a);
+  padding: 10px 24px;
+  background: transparent;
+  margin-right: 20px;
+}
+
+.signup {
+  color: #fff;
+  background: var(--main_ver2, #12887a);
+  padding: 10px 15px;
+  border: 1px solid var(--main_ver2, #12887a);
+}

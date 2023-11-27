@@ -1,0 +1,285 @@
+@import url("./style.css");
+@import url("./navBar.css");
+
+body {
+  background-image: linear-gradient(
+    #e8f4f2 0%,
+    #e8f4f2 25%,
+    #fff 25%,
+    #fff 45%,
+    #e8f4f2 45%,
+    #e8f4f2 70%,
+    #fff 70%,
+    #fff 85%,
+    #e8f4f2 85%,
+    #e8f4f2 100%
+  );
+  height: 3152px;
+}
+.text-1st {
+  color: #000;
+  font-family: IM FELL English SC;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-money {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.first-page {
+  line-height: 60px;
+  position: absolute;
+  top: 250px;
+  left: 324px;
+}
+
+.mainImg {
+  position: absolute;
+  left: 812px;
+  top: 100px;
+}
+
+.second-page {
+  left: 130px;
+  position: relative;
+  top: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  height: 500px;
+}
+
+.text-2nd {
+  position: relative;
+  color: #12887a;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* text-decoration: underline;
+  text-decoration-color: #12887a; */
+}
+
+.interview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.first-avatar {
+  position: absolute;
+  z-index: 1;
+  left: -14px;
+}
+
+.second-avatar {
+  position: relative;
+  z-index: 1;
+  left: 5px;
+  top: 20px;
+}
+
+.circle {
+  border: 1px solid #e8f4f2;
+  width: 215px;
+  height: 215px;
+  background: #e8f4f2;
+  border-radius: 100%;
+  z-index: 0;
+}
+
+.interview-first {
+  position: relative;
+  top: 30px;
+}
+
+.interview-second {
+  position: relative;
+  top: 100px;
+}
+
+.circle second {
+  width: 203px;
+  height: 203px;
+}
+
+.interview-content {
+  width: 894px;
+  height: 116px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 2px 20px 5px rgba(102, 102, 102, 0.2);
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+p {
+  margin-top: 25px;
+}
+
+.third-page {
+  left: 130px;
+  position: absolute;
+  top: 1550px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.text-3rd {
+  left: 130px;
+  position: relative;
+  color: #12887a;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.third-container {
+  margin-left: -100px;
+  width: 650px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.third-container {
+  padding: 30px;
+}
+
+.third-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.third-container li {
+  list-style-image: url("../assets/check-circle.png");
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 40px;
+}
+
+.third-container span {
+  color: var(--main_ver2, #12887a);
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.fourth-page {
+  left: 130px;
+  position: absolute;
+  top: 2300px;
+}
+
+.try-btn {
+  left: 130px;
+  position: relative;
+  width: 1400px;
+  height: 67px;
+  border-radius: 10px;
+  background: #55aba1;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  border: none;
+}
+
+.footer {
+  left: 130px;
+  width: 100%;
+  position: absolute;
+  top: 2800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-footer {
+  position: relative;
+  left: 130px;
+  width: 462.037px;
+  height: 160.963px;
+  flex-shrink: 0;
+  color: #666;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.right-footer h4 {
+  color: #333;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.right-footer {
+  position: absolute;
+  left: 1100px;
+  color: #666;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact p {
+  padding-left: 20px;
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: ;
+}
