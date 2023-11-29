@@ -1,11 +1,13 @@
 html {
   display: flex;
   justify-content: center;
+  max-width: 100vw;
 }
 
 body {
   width: 80%;
-  height: 1200px;
+  /* height: 1200px; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: #e8f4f2;

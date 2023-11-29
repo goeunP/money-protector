@@ -34,6 +34,7 @@ body {
 }
 
 .first-page {
+  width: 80%;
   line-height: 60px;
   position: absolute;
   justify-content: left;
@@ -48,6 +49,7 @@ body {
 }
 
 .second-page {
+  width: 80%;
   left: 130px;
   position: relative;
   top: 750px;
@@ -77,23 +79,27 @@ body {
 }
 
 .first-avatar {
+  width: 200px;
+  height: 200px;
   display: flex;
   position: absolute;
   z-index: 1;
-  left: -14px;
+  left: -20px;
 }
 
 .second-avatar {
+  width: 180px;
+  height: 180px;
   position: relative;
   z-index: 1;
-  left: 5px;
+  left: -5px;
   top: 20px;
 }
 
 .circle {
   border: 1px solid #e8f4f2;
-  width: 215px;
-  height: 215px;
+  width: 200px;
+  height: 200px;
   background: #e8f4f2;
   border-radius: 100%;
   z-index: 0;
@@ -135,6 +141,7 @@ p {
 }
 
 .third-page {
+  width: 80%;
   left: 150px;
   position: absolute;
   top: 1550px;
@@ -202,14 +209,16 @@ p {
 }
 
 .fourth-page {
-  left: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 2300px;
+  width: 80%;
 }
 
 .try-btn {
-  left: 130px;
-  position: relative;
   width: 1400px;
   height: 67px;
   border-radius: 10px;
@@ -231,7 +240,7 @@ p {
 
 .footer {
   left: 130px;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 2800px;
   display: flex;
