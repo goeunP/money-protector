@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/account.css" />
+    <link rel="stylesheet" href="./css/calendar.css" />
+    <title>account</title>
+  </head>
+  <body class="body-account">
+    <!-- navBar -->
+    <div class="navBar">
+      <ul class="container">
+        <img class="logo" src="./assets/logo.png" />
+        <div class="nav">
+          <li>가계부 작성방</li>
+          <li>My 소비내역 보고서</li>
+          <li>My 캐릭터방</li>
+          <li>아이템 구매방</li>
+          <li>금융 뉴스레터</li>
+        </div>
+        <div class="btn-group">
+          <button class="nav-btn login">로그인</button>
+          <button class="nav-btn signup">회원가입</button>
+        </div>
+      </ul>
+    </div>
+    <!-- navBar -->
+
+    <!-- page #1 -->
+    <div class="account-first-page">
+      <h5 class="text-account">
+        <span class="text-account-title">가계부 작성방</span><br />
+        <div>
+          나의 소비 내역을 꼼꼼히 기록하는 방입니다. <br />
+          달력에서 일자를 선택해 소비 내역을 작성할 때마다 10포인트를 지급하고
+          있어요. <br />
+          꾸준히 일주일 동안 작성할 시 50포인트를 추가로 지급합니다.
+        </div>
+      </h5>
+    </div>
+    <img class="mainImg" src="./assets/image 152.png" />
+    <!-- page #1 -->
+
+    <!-- page #2 -->
+    <div class="calendar-second-page">
+      <div class="calendar-title">
+        <div class="calendar-title-text">My 가계부</div>
+      </div>
+    </div>
+
+    <div class="left-calendar">
+      <table class="Calendar">
+        <thead>
+          <tr>
+            <td onClick="prevCalendar();" style="cursor: pointer">
+              <svg
+                width="9"
+                height="10"
+                viewBox="0 0 9 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path id="Vector" d="M8.5 0.5L1.5 5L8.5 9.5" stroke="black" />
+              </svg>
+            </td>
+            <td colspan="5">
+              <div class="calTitle">
+                <span id="calMonth"></span> <span id="calYear"></span>
+              </div>
+            </td>
+            <td onClick="nextCalendar();" style="cursor: pointer">
+              <svg
+                width="9"
+                height="10"
+                viewBox="0 0 9 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path id="Vector" d="M0.5 9.5L7.5 5L0.5 0.5" stroke="black" />
+              </svg>
+            </td>
+          </tr>
+          <tr>
+            <td>SUN</td>
+            <td>MON</td>
+            <td>TUE</td>
+            <td>WED</td>
+            <td>THU</td>
+            <td>FRI</td>
+            <td>SAT</td>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="right-calendar">
+      <div class="right-calendar-background-1">
+        <div class="calendar-id-consume">
+          <div class="calendar-id">moneyprotector</div>
+          <div class="calendar-consume">님의 소비내역</div>
+        </div>
+      </div>
+
+      <div class="right-calendar-line-1">
+        <div class="Rectangle9266">
+          <div class="category">
+            <div class="plus-container">
+              <div class="plus-category">수입</div>
+              <div class="plus_value">0원</div>
+            </div>
+
+            <div class="minus-container">
+              <div class="minus-category">지출</div>
+              <div class="minus_value">700,000원</div>
+            </div>
+            <div class="ProfileBoxLine">
+              <svg xmlns="http://www.w3.org/2000/svg" width="146" height="2" viewBox="0 0 146 2" fill="none">
+                <path d="M0 1H146.003" stroke="#666666" stroke-opacity="0.2" stroke-width="0.5"/>
+              </svg>
+                <path
+                  d="M0 1L115 1"
+                  stroke="#666666"
+                  stroke-opacity="0.2"
+                  stroke-width="0.5"
+                />
+              </svg>
+            </div>
+            <div class="total-container">
+              <div class="total-category">총금액</div>
+              <div class="total_value">-700,000원</div>
+            </div>
+          </div>
+
+
+          <div class="spend">지출내역</div>
+          <div class="Rectangle9267">
+            <div class="ex_category2_1">브랜디</div><div class="ex_category2_spend_1">-250,000</div><div class = "cloth_tag">옷</div>
+            <div class="ex_category2_2">오마카세</div><div class="ex_category2_spend_2">-450,000</div><div class="food_tag">식비</div>
+          </div>
+        </div>
+        <button class="spend_btn">편집</button>
+      </div>
+
+      <div class="right-calendar-background-2">
+        <div class="spend_month">
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10" viewBox="0 0 8 10" fill="none">
+            <path d="M0 5L7.5 0.669872L7.5 9.33013L0 5Z" fill="#999999" fill-opacity="0.5"/>
+          </svg>
+            <div class="month">12월</div> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10" viewBox="0 0 8 10" fill="none">
+            <path d="M8 5L0.5 9.33013L0.5 0.669873L8 5Z" fill="#999999" fill-opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="spend_category">
+          <div class="earn"><div>수입</div> <div class="earn_graph"></div> <div class="earn_value">100,000원</div></div>
+          <div class="spend_title"><div>지출</div> <div class="spend_graph"></div> <div class="spend_value">800,000원</div></div>
+          <div class="goal"><div>지출 목표금액</div> <div class="goal_graph"></div> <div class="goal_value">700,000원</div></div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- paeg #2 -->
+
+    <!-- footer -->
+    <div class="footer-account">
+      <div class="left-footer">
+        <img src="./assets/logo.png" />
+        <p>
+          텅장방지기는 친구들과 함께 목표 지출 금액 공유, 가계부 작성 및 절약 시
+          리워드 지급을 통해 캐릭터 커스터마이징을 할 수 있도록 하여 소비 습관
+          개선에 대한 동기부여를 하는 가계부 커뮤니티 플랫폼입니다.
+        </p>
+      </div>
+      <div class="right-footer">
+        <h4>Information</h4>
+        <div class="contact">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="24"
+            viewBox="0 0 26 24"
+            fill="none"
+          >
+            <path
+              d="M24.6191 16.6659L19.1502 14.4592C18.9166 14.3655 18.657 14.3457 18.4104 14.4029C18.1638 14.4601 17.9436 14.5912 17.783 14.7764L15.3611 17.5624C11.5601 15.8751 8.50122 12.9951 6.7091 9.4164L9.66813 7.13612C9.86524 6.98518 10.0048 6.77789 10.0655 6.54562C10.1263 6.31335 10.1051 6.06876 10.0051 5.84887L7.66126 0.699859C7.55145 0.462825 7.35724 0.269294 7.11211 0.152638C6.86698 0.0359823 6.5863 0.00351334 6.31846 0.06083L1.24025 1.16419C0.982027 1.22033 0.751641 1.35722 0.586691 1.55252C0.421742 1.74782 0.331972 1.98999 0.332031 2.23951C0.332031 14.0317 10.4836 23.5711 22.9887 23.5711C23.2538 23.5713 23.5111 23.4868 23.7186 23.3315C23.9262 23.1762 24.0716 22.9592 24.1313 22.716L25.3032 17.9348C25.3637 17.6814 25.3284 17.4161 25.2036 17.1845C25.0787 16.9529 24.872 16.7695 24.6191 16.6659Z"
+              fill="#666666"
+            />
+          </svg>
+          <p>02-1234-1234</p>
+        </div>
+        <div class="contact">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="37"
+            height="26"
+            viewBox="0 0 37 26"
+            fill="none"
+          >
+            <path
+              d="M32.7482 0.571289H3.68542C1.83337 0.571289 0.332031 1.98535 0.332031 3.72974V22.6804C0.332031 24.4248 1.83337 25.8389 3.68542 25.8389H32.7482C34.6002 25.8389 36.1016 24.4248 36.1016 22.6804V3.72974C36.1016 1.98535 34.6002 0.571289 32.7482 0.571289ZM32.7482 3.72974V6.41475C31.1817 7.61621 28.6844 9.48443 23.3456 13.4219C22.1691 14.2936 19.8384 16.3877 18.2168 16.3633C16.5954 16.3879 14.2641 14.2932 13.088 13.4219C7.75002 9.48502 5.25209 7.6164 3.68542 6.41475V3.72974H32.7482ZM3.68542 22.6804V10.4676C5.28625 11.6686 7.55643 13.3538 11.0166 15.9058C12.5436 17.0379 15.2177 19.5371 18.2168 19.5219C21.2011 19.5371 23.8413 17.0742 25.4163 15.9063C28.8765 13.3544 31.1473 11.6687 32.7482 10.4677V22.6804H3.68542Z"
+              fill="#666666"
+            />
+          </svg>
+          <p>moneyprotector@naver.com</p>
+        </div>
+        <div class="sns">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="47"
+            viewBox="0 0 46 47"
+            fill="none"
+          >
+            <ellipse
+              cx="23.166"
+              cy="23.4189"
+              rx="22.834"
+              ry="22.7139"
+              fill="#666666"
+            />
+            <path
+              d="M23.1691 15.3824C18.9631 15.3824 15.5704 18.7861 15.5704 23.0059C15.5704 27.2258 18.9631 30.6295 23.1691 30.6295C27.3752 30.6295 30.7678 27.2258 30.7678 23.0059C30.7678 18.7861 27.3752 15.3824 23.1691 15.3824ZM23.1691 27.9622C20.4511 27.9622 18.229 25.7395 18.229 23.0059C18.229 20.2723 20.4444 18.0496 23.1691 18.0496C25.8938 18.0496 28.1093 20.2723 28.1093 23.0059C28.1093 25.7395 25.8872 27.9622 23.1691 27.9622ZM32.851 15.0705C32.851 16.0591 32.0574 16.8487 31.0786 16.8487C30.0932 16.8487 29.3063 16.0525 29.3063 15.0705C29.3063 14.0886 30.0999 13.2924 31.0786 13.2924C32.0574 13.2924 32.851 14.0886 32.851 15.0705ZM37.8837 16.8752C37.7713 14.4933 37.229 12.3834 35.4897 10.645C33.757 8.90667 31.654 8.3626 29.2798 8.24317C26.8329 8.10384 19.4987 8.10384 17.0518 8.24317C14.6843 8.35597 12.5812 8.90003 10.8419 10.6384C9.10263 12.3767 8.56695 14.4867 8.44791 16.8686C8.30903 19.3235 8.30903 26.6817 8.44791 29.1366C8.56034 31.5186 9.10263 33.6285 10.8419 35.3668C12.5812 37.1052 14.6776 37.6493 17.0518 37.7687C19.4987 37.908 26.8329 37.908 29.2798 37.7687C31.654 37.6559 33.757 37.1118 35.4897 35.3668C37.2224 33.6285 37.7647 31.5186 37.8837 29.1366C38.0226 26.6817 38.0226 19.3302 37.8837 16.8752ZM34.7226 31.7707C34.2067 33.0711 33.2081 34.073 31.9053 34.5972C29.9544 35.3735 25.3251 35.1943 23.1691 35.1943C21.0132 35.1943 16.3773 35.3668 14.4329 34.5972C13.1367 34.0797 12.1381 33.0778 11.6157 31.7707C10.8419 29.8134 11.0205 25.1689 11.0205 23.0059C11.0205 20.8429 10.8485 16.1918 11.6157 14.2412C12.1315 12.9407 13.1301 11.9388 14.4329 11.4147C16.3839 10.6384 21.0132 10.8175 23.1691 10.8175C25.3251 10.8175 29.961 10.645 31.9053 11.4147C33.2015 11.9322 34.2001 12.9341 34.7226 14.2412C35.4963 16.1985 35.3178 20.8429 35.3178 23.0059C35.3178 25.1689 35.4963 29.82 34.7226 31.7707Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="46"
+            viewBox="0 0 46 46"
+            fill="none"
+          >
+            <ellipse
+              cx="22.835"
+              cy="22.5703"
+              rx="22.835"
+              ry="22.5625"
+              fill="#666666"
+            />
+            <path
+              d="M38.5741 13.8321C38.1963 12.2657 37.0831 11.032 35.6697 10.6133C33.1079 9.85254 22.8353 9.85254 22.8353 9.85254C22.8353 9.85254 12.5628 9.85254 10.0009 10.6133C8.58755 11.032 7.4744 12.2657 7.0966 13.8321C6.41016 16.6714 6.41016 22.5953 6.41016 22.5953C6.41016 22.5953 6.41016 28.5192 7.0966 31.3585C7.4744 32.9249 8.58755 34.1072 10.0009 34.5259C12.5628 35.2866 22.8353 35.2866 22.8353 35.2866C22.8353 35.2866 33.1079 35.2866 35.6697 34.5259C37.0831 34.1072 38.1963 32.9249 38.5741 31.3585C39.2605 28.5192 39.2605 22.5953 39.2605 22.5953C39.2605 22.5953 39.2605 16.6714 38.5741 13.8321ZM19.4756 27.9737V17.2168L28.0615 22.5954L19.4756 27.9737Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <script src="./js/calendar.js"></script>
+  </body>
+</html>

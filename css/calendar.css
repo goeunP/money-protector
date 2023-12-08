@@ -1,0 +1,62 @@
+td {
+  width: 71.5px;
+  height: 71.5px;
+}
+
+
+.Calendar {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+.calTitle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-left: 274px;
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.Calendar > thead > tr:first-child > td {
+  font-weight: bold;
+}
+
+.Calendar > thead > tr:last-child > td {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.pastDay {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.futureDay {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.choiceDay {
+  border-radius: 10px;
+  background: rgba(18, 136, 122, 0.1);
+  cursor: pointer;
+}

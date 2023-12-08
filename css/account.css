@@ -1,0 +1,482 @@
+/* body */
+.body-account {
+  background-image: linear-gradient(
+    #e8f4f2 0px,
+    #e8f4f2 787.5px,
+    #fff 787.5px,
+    #fff 1848px,
+    #e8f4f2 1848px,
+    #e8f4f2 2332px
+  );
+  height: 2332px;
+}
+/* body */
+
+/* first page */
+.account-first-page {
+  width: 80%;
+  line-height: 60px;
+  position: absolute;
+  justify-content: left;
+  top: 197px;
+  left: 324px;
+}
+
+.text-account {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-account-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* first page */
+
+/* second page */
+.calendar-title {
+  width: 1242px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--main_ver2, #12887a);
+}
+.left-calendar {
+  position: absolute;
+  top: 975px;
+  left: 343px;
+}
+.calendar-second-page {
+  width: 80%;
+  left: 339px;
+  position: absolute;
+  top: 825px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  height: 00px;
+}
+.calendar-title-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 33.29px;
+}
+
+.right-calendar {
+  width: 80%;
+  left: 981px;
+  position: absolute;
+  top: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  height: 00px;
+}
+.calendar-id-consume {
+  margin-top: 19px;
+  margin-left: 59.3px;
+}
+
+.calendar-id {
+  color: var(--main_ver2, #12887a);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-block;
+}
+
+.calendar-consume {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-block;
+}
+
+.right-calendar-background-1 {
+  width: 600px;
+  height: 435px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(232, 244, 242, 0.35);
+}
+
+.right-calendar-line-1 {
+  width: 498.947px;
+  height: 1px;
+  background-color: rgba(18, 136, 122, 0.2);
+  flex-shrink: 0;
+  top: 51px;
+  left: 50.58px;
+  position: absolute;
+}
+
+.category {
+  font-family: Inter;
+
+  margin-top: 9px;
+  margin-left: 33.93px;
+  padding-bottom: 9px;
+}
+
+.plus-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.plus-category {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #666;
+  padding: 0px;
+}
+.plus_value {
+  color: #00f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px;
+}
+
+.minus-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.minus-category {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #666;
+  padding: 0px;
+}
+.minus_value {
+  color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px;
+}
+.ProfileBoxLine {
+  width: 200px;
+  height: 0px;
+  padding: 0px;
+  padding-bottom: 12px;
+  stroke-width: 0.5px;
+  stroke: rgba(102, 102, 102, 0.2);
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+.total-category {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #666;
+  padding: 0px;
+}
+.total_value {
+  color: #008000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Rectangle9266 {
+  position: absolute;
+  top: 16px;
+  width: 218.023px;
+  height: 93px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.spend {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 161px;
+  left: 13.95px;
+}
+
+.Rectangle9267 {
+  background: #fff;
+  width: 507px;
+  height: 106px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 204px;
+}
+
+.ex_category2_1 {
+  position: absolute;
+  top: 23px;
+  left: 53.65px;
+  width: 73.256px;
+  color: #808080;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ex_category2_2 {
+  position: absolute;
+  top: 65px;
+  left: 53.65px;
+  width: 73.256px;
+  color: #808080;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ex_category2_spend_1 {
+  position: absolute;
+  top: 23px;
+  left: 189.7px;
+  width: 118.605px;
+  color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ex_category2_spend_2 {
+  position: absolute;
+  top: 65px;
+  left: 189.7px;
+  width: 118.605px;
+  color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cloth_tag {
+  position: absolute;
+  top: 24px;
+  left: 372.84px;
+  display: flex;
+  width: 85.465px;
+  padding: 2px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ffff87;
+}
+
+.food_tag {
+  position: absolute;
+  top: 68px;
+  left: 372.84px;
+  display: flex;
+  width: 85.465px;
+  padding: 2px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #b2c4e5;
+}
+
+.spend_btn {
+  position: absolute;
+  top: 326px;
+  left: -5px;
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--main_ver2, #12887a);
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.right-calendar-background-2 {
+  width: 590px;
+  height: 145px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: rgba(232, 244, 242, 0.35);
+}
+
+.spend_month {
+  position: absolute;
+  top: 488px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.month {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 10px;
+}
+
+
+.earn {
+  position: absolute;
+  left: 86px;
+  top: 510px;
+  color: #666;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.earn_graph {
+  width: 33px;
+  height: 13px;
+  flex-shrink: 0;
+  background: #55aba1;
+  margin: 0 10px;
+}
+
+.earn_value {
+  color: var(--main_ver2, #12887a);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.spend_title {
+  position: absolute;
+  left: 86px;
+  top: 535px;
+  color: #666;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.spend_value {
+  color: rgba(255, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.spend_graph {
+  width: 159px;
+  height: 13px;
+  flex-shrink: 0;
+  background: #f00;
+  margin: 0 10px;
+}
+
+.goal {
+  position: absolute;
+  left: 27px;
+  top: 563px;
+  color: #666;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.goal_graph {
+  width: 134px;
+  height: 13px;
+  flex-shrink: 0;
+  background: #55aba1;
+  margin: 0 10px;
+}
+
+.goal_value {
+  color: var(--main_ver2, #12887a);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* second page */
+
+/* body */
+
+/* footer */
+.footer-account {
+  left: 130px;
+  width: 80%;
+  position: absolute;
+  top: 1964px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* footer */
